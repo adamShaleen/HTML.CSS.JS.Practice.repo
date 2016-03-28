@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.header {
+  width: 100%;
+  height: 160px;
+  background: #666;
+  position: relative;
+}
+
+.sides {
+  height: 100%;
+}
+
+.left {
+  display: inline-block;
+  background: #D8D8D8;
+  width: 130px;
+  height: 100%;
+
+}
+
+.right {
+  display: inline-block;
+  background: #D8D8D8;
+  width: 130px;
+  height: 100%;
+
+}
+
+.footer {
+  display: inline-block;
+  width: calc(100% - 260px);
+  height: 120px;
+  background: #666;
+
+
+}

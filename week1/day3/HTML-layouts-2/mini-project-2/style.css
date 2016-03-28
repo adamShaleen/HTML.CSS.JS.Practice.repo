@@ -1,0 +1,110 @@
+.full-window {
+    width: 100%;
+    background: #D8D8D8;
+    /*add border outline*/
+    display: inline-block;
+    /*padding: 25px;*/
+    text-align: center;
+}
+
+.header {
+    width: 80%;
+    background: white;
+    margin: auto;
+    margin-top: 25px;
+    display: inline-block;
+    text-align: left;
+}
+
+.header p {
+    font-family: 'helvetica';
+    line-height: 151%;
+    font-size: 150%;
+    text-align: justify;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+
+.red-click {
+    width: 10%;
+    height: 5vh;
+    background: #D0021B;
+    display: inline-block;
+    margin-left: 46px;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+.red-click a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.blue-click {
+    width: 10%;
+    height: 5vh;
+    background: #4A90E2;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+.blue-click a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+
+.main {
+    width: 80%;
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+.main img {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.main-text {
+    font-family: 'helvetica';
+    line-height: 151%;
+    font-size: 150%;
+    text-align: justify;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    background: #333333;
+
+}
+
+.footer p {
+    font-family: 'helvetica';
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    float: right;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 40px;
+
+}

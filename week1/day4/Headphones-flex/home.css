@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.home-page-top-main {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('img/main-bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    width: 36px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+
+}
+
+.menu img {
+    width: 100%;
+}
+
+.home-page-content-top {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    position: absolute;
+    top: 94px;
+    left: 30px;
+}
+
+.home-top-button {
+    width: 200px;
+    padding: 10px 0 10px 0 ;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: #000;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.home-top-button a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.home-page-content-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-page-product-card {
+    width: 50%;
+    cursor: pointer;
+}
+
+.home-page-product-card img {
+    width: 100%;
+}
+
+.product-card-spacer {
+    width: 100%;
+    height: 100px;
+    background: grey;
+    display: none;
+}
+
+@media(min-width: 800px) {
+    .home-page-product-card {
+        width: 25%;
+    }
+    .product-card-spacer {
+        display: block;
+    }
+}

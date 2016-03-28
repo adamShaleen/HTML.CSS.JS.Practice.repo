@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.blue-column {
+  display: inline-block;
+  width: 33.3%;
+  height: 100%;
+  background: #3182C7;
+}
+
+.green-column {
+  display: inline-block;
+  width: 33.3%;
+  height: 100%;
+  background: #51E0A5;
+}
+
+.yellow-column {
+  display: inline-block;
+  width: 33.3%;
+  height: 100%;
+  background: #D2F57C;
+}
+
+img {
+  position: absolute;
+  float: right;
+  bottom: 0;
+  height: 30%;
+  width: 33.3%;
+}

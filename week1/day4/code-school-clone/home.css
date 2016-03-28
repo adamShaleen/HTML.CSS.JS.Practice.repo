@@ -1,0 +1,718 @@
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'open sans';
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.home-page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu {
+    margin-right: 20px;
+
+}
+
+.home-page-intro-box {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: #fff;
+    background: linear-gradient(to bottom, #21abc7 ,#616db3 );
+}
+
+.intro-header-text {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.intro-button {
+    background-color: #ffae1c;
+    border: 1px solid #ffae1c;
+    color: #fff;
+    border-radius: 50px;
+    width: 230px;
+    padding: 15px;
+    font-weight: 700px;
+}
+
+.video-section {
+    padding: 60px, 10px, 10px, 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.why-learn {
+    display: flex;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.why-learn-p {
+    font-size: 14px;
+}
+
+.why-learn-p img {
+    display: flex;
+    justify-content: center;
+}
+
+.video-section img {
+    margin: auto;
+}
+
+.lesson-background-container {
+    width: 100%;
+    background: #F6F8F8;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.start-learning {
+    font-size: 19px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.course-overview {
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.ruby-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+    border-radius: 5px;
+}
+
+.ruby-img {
+    margin-top: -40px;
+}
+
+.ruby-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+a {
+    color: #21abc7;
+}
+
+.ruby-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.ruby-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.ruby-footer {
+    .width: 100%;
+    background:#F6F8F8;
+
+}
+
+.get-started-ruby {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-ruby-link {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.javascript-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.javascript-img {
+    margin-top: -40px;
+}
+
+.javascript-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.javascript-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.javascript-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.javascript-footer {
+    .width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-javascript {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-javascript-link {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.html-css-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.html-css-image {
+    margin-top: -40px;
+}
+
+.html-css-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.html-css-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.html-css-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.html-css-footer {
+    .width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-html-css {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-html-css-link {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.python-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.python-image {
+    margin-top: -40px;
+}
+
+.python-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.python-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.python-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.python-footer {
+    width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-python {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-python {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.ios-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.ios-image {
+    margin-top: -40px;
+}
+
+.ios-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.ios-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.ios-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.ios-footer {
+    width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-ios {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-ios {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.git-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.git-image {
+    margin-top: -40px;
+}
+
+.git-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.git-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.git-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.git-footer {
+    width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-git {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-git {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.database-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.database-image {
+    margin-top: -40px;
+}
+
+.database-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.database-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.database-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.database-footer {
+    width: 100%;
+    background:#F6F8F8;
+    border-bottom: .5px solid black;
+}
+
+.get-started-database {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-database {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 60px;
+}
+
+.electives-box {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.electives-image {
+    margin-top: -40px;
+}
+
+.electives-title {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    color: ##21abc7;
+    text-decoration: none;
+}
+
+.electives-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.electives-button {
+    font-size: 12px;
+    background-color: #21ABC7;
+    border: 1px solid #21ABC7;
+    color: #fff;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.electives-footer {
+    width: 100%;
+    background:#F6F8F8;
+    padding-bottom: 40px
+}
+
+.get-started-electives {
+    text-align: center;
+    font-size: 75%;
+    padding-top: 20px;
+}
+
+.try-electives {
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 20px;
+}
+
+.how-code-school-works-box {
+    width: 100%;
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.how-code-school-works-title {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.how-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.how-title {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.how-text {
+    text-align: left;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.join-the-crowd-box {
+    padding-top: 60px;
+}
+
+.code-school-impact-text {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quote {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.quote-image {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.share-button {
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid #21ABC7;
+    color: #21ABC7;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.bottom-orange {
+    width: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #F68334, #F25952);
+}
+
+.price-text {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.price {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.price-under-line {
+    width: 15%;
+    border-top: 2px solid #ffae1c;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.under-price-text {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 130px;
+}
+
+.enroll-now {
+    font-size: 12px;
+    background-color: #F79F00;
+    color: white;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.bottom-blue {
+    width: 100%;
+    background: linear-gradient(to bottom, #23AAC7, #606DB3);
+}
+
+.sign-up-button {
+    font-size: 12px;
+    background-color: #3AA0CA;
+    color: white;
+    border-radius: 100px;
+    width: 175px;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    background: #2D3033;
+    color: #aebdc1;
+}
+.links {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.footer-text-closer {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}

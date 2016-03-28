@@ -1,0 +1,41 @@
+/*First and foremost, always set the height and width and margin for the body and html.
+  margin: 0 auto; // sets the margin to 0 - gets rid of the weird thin white 'border'
+  width/height: 100%; // sets the body to stretch to fit whatever content is put inside of it.*/
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ /* STEP 1 */
+.button {
+    width: 15%;
+    height: 15%;
+    background: blue;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+ /* STEP 2 */
+
+.text-box {
+  width: 20%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 40%;
+  text-align: center;
+
+
+}
+
+
+
+ /* STEP 3 */
+
+
+ /* STEP 4 */
+
+
+ /* STEP 5 */
