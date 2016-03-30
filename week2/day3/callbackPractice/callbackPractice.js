@@ -142,14 +142,12 @@ uniq(names, function(uniqArr){
 
     //Code Here for each
 
-    function each(array, callback) {
+function each(array, callback) {
 var indice = 0;
 var item = [];
-var count = 0;
   for (var i = 0; i < array.length; i++) {
-    item = array[count];
+    item = array[i];
     callback(item, indice);
-    count++;
     indice++;
   }
 }
@@ -169,6 +167,14 @@ each(names, function(item, indice){
 
 
  //code here for getUserById
+
+ function getUserById(array, value, callback) {
+   for (var i = 0; i < array.length; i++) {
+     if (array[i].id === value) {
+       return callback(array[i]);
+     }
+   }
+ }
 
 var users = [
   {
