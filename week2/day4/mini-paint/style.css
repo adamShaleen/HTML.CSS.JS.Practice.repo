@@ -25,6 +25,11 @@ div div {
     background: black;
 }
 
+#reset {
+    cursor: pointer;
+}
+
+
 .white {
   background: #fff;
 }
